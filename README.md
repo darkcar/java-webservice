@@ -28,12 +28,12 @@ SOAP的组成：
 - Body 必须的
   1. WSDL语言：Webservice Definition Language， used to describe web services, written in XML. 
 
-| Element    | Description                                                  |
-| ---------- | ------------------------------------------------------------ |
-| <type>     | Defines the data types used the webservice                   |
-| <message>  | Defines the data elements for each operation                 |
-| <portType> | Describes the operations that can be performed and the messages involved. |
-| <binding>  | Defines the protocol and data format for each port type      |
+| Element     | Description                                                  |
+| ----------- | ------------------------------------------------------------ |
+| \<type>     | Defines the data types used the webservice                   |
+| \<message>  | Defines the data elements for each operation                 |
+| \<portType> | Describes the operations that can be performed and the messages involved. |
+| \<binding>  | Defines the protocol and data format for each port type      |
 
 A request-response operation example: 
 
@@ -269,4 +269,4 @@ public class Server {
 
    Note: <b>这里需要看一下代理模式的设计模式</b>
 
-   video10
+   
